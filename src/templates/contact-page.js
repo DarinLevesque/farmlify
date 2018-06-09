@@ -43,7 +43,7 @@ export const ContactPageTemplate = ({
           <div class="field-body">
             <div class="field">
               <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" placeholder="Name">
+                <input class="input" type="text" placeholder="Name" />
                 <span class="icon is-small is-left">
                   <i class="fas fa-user"></i>
                 </span>
@@ -51,7 +51,7 @@ export const ContactPageTemplate = ({
             </div>
             <div class="field">
               <p class="control is-expanded has-icons-left has-icons-right">
-                <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
+                <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com" />
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -70,11 +70,11 @@ export const ContactPageTemplate = ({
               <div class="field has-addons">
                 <p class="control">
                   <a class="button is-static">
-                    +44
+                    +1
                   </a>
                 </p>
                 <p class="control is-expanded">
-                  <input class="input" type="tel" placeholder="Your phone number">
+                  <input class="input" type="tel" placeholder="Your phone number" />
                 </p>
               </div>
               <p class="help">Do not enter the first zero</p>
@@ -109,11 +109,11 @@ export const ContactPageTemplate = ({
             <div class="field is-narrow">
               <div class="control">
                 <label class="radio">
-                  <input type="radio" name="member">
+                  <input type="radio" name="member" />
                   Yes
                 </label>
                 <label class="radio">
-                  <input type="radio" name="member">
+                  <input type="radio" name="member" />
                   No
                 </label>
               </div>
@@ -128,7 +128,7 @@ export const ContactPageTemplate = ({
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity">
+                <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity" />
               </div>
               <p class="help is-danger">
                 This field is required
@@ -144,7 +144,7 @@ export const ContactPageTemplate = ({
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+                <textarea class="textarea" placeholder="Explain how we can help you" />
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ export const ContactPageTemplate = ({
 
         <div class="field is-horizontal">
           <div class="field-label">
-            <!-- Left empty for spacing -->
+            
           </div>
           <div class="field-body">
             <div class="field">
@@ -164,8 +164,8 @@ export const ContactPageTemplate = ({
             </div>
           </div>
         </div>
+        </form>
       </section>
-      </form>
       <section className='section'>
         <div className='container'>
           {contacts.map((contact, id) =>
