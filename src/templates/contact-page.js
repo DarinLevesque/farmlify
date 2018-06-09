@@ -36,60 +36,60 @@ export const ContactPageTemplate = ({
       </section>
       <section className="section">
       <form netlify>
-      <div class="field is-horizontal">
-          <div class="field-label is-normal">
-            <label class="label">From</label>
+      <div className="field is-horizontal">
+          <div className="field-label is-normal">
+            <label className="label">From</label>
           </div>
-          <div class="field-body">
-            <div class="field">
-              <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" placeholder="Name" />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
+          <div className="field-body">
+            <div className="field">
+              <p className="control is-expanded has-icons-left">
+                <input className="input" type="text" placeholder="Name" />
+                <span className="icon is-small is-left">
+                  <i className="fas fa-user"></i>
                 </span>
               </p>
             </div>
-            <div class="field">
-              <p class="control is-expanded has-icons-left has-icons-right">
-                <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com" />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
+            <div className="field">
+              <p className="control is-expanded has-icons-left has-icons-right">
+                <input className="input is-success" type="email" placeholder="Email" value="alex@smith.com" />
+                <span className="icon is-small is-left">
+                  <i className="fas fa-envelope"></i>
                 </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-check"></i>
+                <span className="icon is-small is-right">
+                  <i className="fas fa-check"></i>
                 </span>
               </p>
             </div>
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label"></div>
-          <div class="field-body">
-            <div class="field is-expanded">
-              <div class="field has-addons">
-                <p class="control">
-                  <a class="button is-static">
+        <div className="field is-horizontal">
+          <div className="field-label"></div>
+          <div className="field-body">
+            <div className="field is-expanded">
+              <div className="field has-addons">
+                <p className="control">
+                  <a className="button is-static">
                     +1
                   </a>
                 </p>
-                <p class="control is-expanded">
-                  <input class="input" type="tel" placeholder="Your phone number" />
+                <p className="control is-expanded">
+                  <input className="input" type="tel" placeholder="Your phone number" />
                 </p>
               </div>
-              <p class="help">Do not enter the first zero</p>
+              <p className="help">Do not enter the first zero</p>
             </div>
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-            <label class="label">Department</label>
+        <div className="field is-horizontal">
+          <div className="field-label is-normal">
+            <label className="label">Department</label>
           </div>
-          <div class="field-body">
-            <div class="field is-narrow">
-              <div class="control">
-                <div class="select is-fullwidth">
+          <div className="field-body">
+            <div className="field is-narrow">
+              <div className="control">
+                <div className="select is-fullwidth">
                   <select>
                     <option>Business development</option>
                     <option>Marketing</option>
@@ -101,18 +101,18 @@ export const ContactPageTemplate = ({
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label">
-            <label class="label">Already a member?</label>
+        <div className="field is-horizontal">
+          <div className="field-label">
+            <label className="label">Already a member?</label>
           </div>
-          <div class="field-body">
-            <div class="field is-narrow">
-              <div class="control">
-                <label class="radio">
+          <div className="field-body">
+            <div className="field is-narrow">
+              <div className="control">
+                <label className="radio">
                   <input type="radio" name="member" />
                   Yes
                 </label>
-                <label class="radio">
+                <label className="radio">
                   <input type="radio" name="member" />
                   No
                 </label>
@@ -121,43 +121,43 @@ export const ContactPageTemplate = ({
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-            <label class="label">Subject</label>
+        <div className="field is-horizontal">
+          <div className="field-label is-normal">
+            <label className="label">Subject</label>
           </div>
-          <div class="field-body">
-            <div class="field">
-              <div class="control">
-                <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity" />
+          <div className="field-body">
+            <div className="field">
+              <div className="control">
+                <input className="input is-danger" type="text" placeholder="e.g. Partnership opportunity" />
               </div>
-              <p class="help is-danger">
+              <p className="help is-danger">
                 This field is required
               </p>
             </div>
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-            <label class="label">Question</label>
+        <div className="field is-horizontal">
+          <div className="field-label is-normal">
+            <label className="label">Question</label>
           </div>
-          <div class="field-body">
-            <div class="field">
-              <div class="control">
-                <textarea class="textarea" placeholder="Explain how we can help you" />
+          <div className="field-body">
+            <div className="field">
+              <div className="control">
+                <textarea className="textarea" placeholder="Explain how we can help you" />
               </div>
             </div>
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-label">
+        <div className="field is-horizontal">
+          <div className="field-label">
             
           </div>
-          <div class="field-body">
-            <div class="field">
-              <div class="control">
-                <button class="button is-primary">
+          <div className="field-body">
+            <div className="field">
+              <div className="control">
+                <button className="button is-primary">
                   Send message
                 </button>
               </div>

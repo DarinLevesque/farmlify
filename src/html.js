@@ -39,6 +39,7 @@ export default class HTML extends Component {
           />
           {this.props.postBodyComponents}
           <script src={__PATH_PREFIX__ + '/js/toggle.js'} />
+          <script>
         </body>
       </html>
     )

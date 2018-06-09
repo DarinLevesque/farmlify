@@ -1,10 +1,8 @@
-/**
- * Created by vaibhav on 31/3/18
- */
 import React from 'react'
 import PropTypes from 'prop-types'
 import {kebabCase} from 'lodash'
 import Link from 'gatsby-link'
+import Lazyload from 'react-lazyload'
 import Content, {HTMLContent} from '../components/Content'
 import SE0 from '../components/SEO'
 import Disqus from '../components/Disqus'
@@ -37,7 +35,9 @@ export const ArticleTemplate = ({
             <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
               {title}
             </h1>
-            <img src={cover} alt={title} />
+            <LazyLoad height={200} offset={100}>
+              <img src={cover} alt={title} />
+            </LazyLoad>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{marginTop: `4rem`}}>
