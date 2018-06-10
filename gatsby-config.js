@@ -48,17 +48,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-purify-css',
-      options: {
-        /* Defaults */
-        styleId: 'gatsby-inlined-css',
-        purifyOptions: {
-          info: true,
-          minify: true
-        }
-      }
-    },
-    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
@@ -108,10 +97,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
+        setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = 'GatsbyJS Business Starter'
+          ret.generator = 'Farmlify'
           return ret
         },
         query: `
@@ -133,7 +122,7 @@ module.exports = {
                   `,
         feeds: [
           {
-            serialize (ctx) {
+            serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
               return ctx.query.allMarkdownRemark.edges
                 .filter(edge => edge.node.frontmatter.templateKey === 'article-page')
@@ -145,7 +134,7 @@ module.exports = {
                   author: rssMetadata.author,
                   url: rssMetadata.site_url + edge.node.fields.slug,
                   guid: rssMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{'content:encoded': edge.node.html}],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 }))
             },
             query: `
@@ -176,6 +165,17 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-purify-css',
+      options: {
+        /* Defaults */
+        /*styleId: 'gatsby-inlined-css',*/
+        purifyOptions: {
+          info: true,
+          minify: true,
+        }
+      }
     },
     'gatsby-plugin-netlify',
   ],
