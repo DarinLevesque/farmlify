@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
+import { kebabCase } from 'lodash'
 import Link from 'gatsby-link'
-import Lazyload from 'react-lazyload'
-import Content, {HTMLContent} from '../components/Content'
+import Content, { HTMLContent } from '../components/Content'
 import SE0 from '../components/SEO'
 import Disqus from '../components/Disqus'
 import Share from '../components/Share'
@@ -35,12 +34,10 @@ export const ArticleTemplate = ({
             <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
               {title}
             </h1>
-            <LazyLoad height={200} offset={100}>
-              <img src={cover} alt={title} />
-            </LazyLoad>
+            <img src={cover} alt={title} />
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{marginTop: `4rem`}}>
+              <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className='taglist'>
                   {tags.map(tag => (
@@ -79,8 +76,8 @@ ArticleTemplate.propTypes = {
   slug: PropTypes.string,
 }
 
-const ArticlePage = ({data}) => {
-  const {markdownRemark: post} = data
+const ArticlePage = ({ data }) => {
+  const { markdownRemark: post } = data
   return (
     <ArticleTemplate
       content={post.html}
