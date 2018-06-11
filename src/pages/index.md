@@ -13,7 +13,7 @@ description: >-
   adipisci velit...
 offerings:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/carrots.jpg
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
         sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
@@ -35,7 +35,7 @@ offerings:
         Etiam sed dui dapibus mauris congue facilisis. Nulla convallis, lectus vel 
         vehicula interdum, turpis nunc aliquet sem, ac iaculis ligula mauris id tortor. 
         Sed eget ornare orci, quis dignissim nulla. Pellentesque aliquam consectetur congue.
-    - image: /img/tutorials.png
+    - image: /img/freshproduce.jpg
       text: >
         Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin 
         pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu 

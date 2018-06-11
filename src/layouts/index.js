@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { Scrollbars } from 'react-custom-scrollbars';
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import './styles.sass'
@@ -15,12 +14,8 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
 
     <NavBar />
-    <Scrollbars
-      autoHide
-      autoHideTimeout={1000}>
-      <div>{children()}</div>
-      <Footer />
-    </Scrollbars>
+    <div>{children()}</div>
+    <Footer />
   </div>
 )
 
