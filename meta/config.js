@@ -2,9 +2,9 @@ module.exports = {
   siteTitle: 'Farmlify', // Site title.
   siteTitleAlt: 'Business', // Alternative site title for SEO.
   siteLogo: '/logos/logo-512x512.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://farmlify.netlify.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://www.farmlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
-  siteDescription: 'The modern way to bring local produce into your mouth', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'The modern way to bring fresh produce from local farms to your mouth', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: 'GTM-PWCJCMJ', // GTM tracking ID.
