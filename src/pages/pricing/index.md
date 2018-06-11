@@ -31,7 +31,7 @@ pricing:
         - Sed eget ornare orci
       plan: Custom
       price: '??'
-meta_title: Pricing | Gatsby Starter Business
+meta_title: HOW IT WORKS
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
