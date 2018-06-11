@@ -1,7 +1,7 @@
 ---
 templateKey: pricing-page
 title: Pricing
-image: /img/b237c2d68879abf4f557bf526fa2f062.jpg
+image: /img/farmlify_pricing.jpg
 pricing:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo
