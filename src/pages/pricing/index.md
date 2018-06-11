@@ -1,7 +1,7 @@
 ---
 templateKey: pricing-page
 title: HOW IT WORKS
-image: /img/carrots.jpg
+image: /img/farmlify_pricing.jpg
 pricing:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo
