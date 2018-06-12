@@ -1,20 +1,18 @@
 ---
-templateKey: 'contact-page'
+templateKey: contact-page
 title: Contact Us
-subtitle: We'd Love To Help You, Feel Free To Drop A Mail
+subtitle: 'We''d Love To Help You, Feel Free To Drop A Mail'
+contacts:
+  - description: >-
+      We really appreciate you taking the time to explore our site. If you have
+      any comments or questions we would love to hear feedback. Email us at the
+      above address or tell us in our survey.
+    email: wgifford@asu.edu
 meta_title: Contact Us | Gatsby Starter Business
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-contacts:
-  - email: support@lorem.com
-    description: >-
-      Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
-      Sed quis egestas libero. Vestibulum nec venenatis ligula. 
-  - email: contact@lorem.com
-    description: >-
-      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
+
