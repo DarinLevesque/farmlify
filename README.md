@@ -20,6 +20,7 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
 ## TODO
 
-- Pagination for Blog (gatsby-paginate)
-- Search (@andrew-codes/gatsby-plugin-elasticlunr-search)# farmlify
+- Add payment gateway
+- Fix moble menu to incorporate pages correctly
+- Add account management
 
