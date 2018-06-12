@@ -8,18 +8,18 @@ description: >-
   find YOUR favorite farm fresh products.
 offerings:
   blurbs:
-    - image: /img/1honey.jpg
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+    - image: /img/1honeytext.jpg
+      text: >-
+        Arizona Farm Grow:
+
+        Location- 20117 N Scottsdale Rd, Scottsdale, Arizona 85255, United
+        States
+
+        Hours- 9AM-6PM
+
+        Phone- (480)-430-5989
+
+        See What's Fresh....
     - image: /img/carrots.jpg
       text: >
         Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi.
