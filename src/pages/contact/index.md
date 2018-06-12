@@ -6,7 +6,7 @@ contacts:
   - description: >-
       We really appreciate you taking the time to explore our site. If you have
       any comments or questions we would love to hear feedback. Email us at the
-      above address.
+      above address or tell us in our survey.
     email: wgifford@asu.edu
 meta_title: Contact Us | Gatsby Starter Business
 meta_description: >-
