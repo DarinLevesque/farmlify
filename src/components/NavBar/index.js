@@ -13,10 +13,16 @@ const NavBar = () => {
               General</p>
             <ul className='menu-list'>
               <li>
-                <a>Dashboard</a>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <a>Customers</a>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/howitworks'>How it Works</Link>
+              </li>
+              <li>
+                <Link to='/blog'>Blog</Link>
               </li>
             </ul>
             <p className='menu-label'>
@@ -27,7 +33,7 @@ const NavBar = () => {
                 <a>Team Settings</a>
               </li>
               <li>
-                <a className='is-active'>Manage Your Team</a>
+                <a>Manage Your Team</a>
                 <ul>
                   <li>
                     <a>Members</a>
@@ -48,20 +54,6 @@ const NavBar = () => {
               </li>
               <li>
                 <a>Authentication</a>
-              </li>
-            </ul>
-            <p className='menu-label'>
-              Transactions
-            </p>
-            <ul className='menu-list'>
-              <li>
-                <a>Payments</a>
-              </li>
-              <li>
-                <a>Transfers</a>
-              </li>
-              <li>
-                <a>Balance</a>
               </li>
             </ul>
           </aside>
