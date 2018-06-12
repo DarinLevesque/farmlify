@@ -1,6 +1,6 @@
 # Farmlify
 
-<img src="https://travis-ci.org/DarinLevesque/farmlify.svg?branch=master">
+<img src="https://travis-ci.org/DarinLevesque/farmlify.svg?branch=master">[![Coverage Status](https://coveralls.io/repos/github/DarinLevesque/farmlify/badge.svg?branch=master)](https://coveralls.io/github/DarinLevesque/farmlify?branch=master)
 
 A [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered business website based on [gatsby-starter-netlify-cms](https://github.com/AustinGreen/gatsby-starter-netlify-cms).
 
