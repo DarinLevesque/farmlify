@@ -1,5 +1,7 @@
 # Farmlify
 
+<img src="https://travis-ci.org/DarinLevesque/farmlify.svg?branch=master">
+
 A [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered business website based on [gatsby-starter-netlify-cms](https://github.com/AustinGreen/gatsby-starter-netlify-cms).
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, CDN distribution and [Netlify CMS](http://netlifycms.org) to manage the content.
