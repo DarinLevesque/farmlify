@@ -50,7 +50,7 @@ class Navbar extends React.Component {
                   <Link to='howitworks' onClick={() => this.closeMenu()}>How it Works</Link>
                 </li>
               </ul>
-              <p className='menu-label'>
+              {/* <p className='menu-label'>
                 Administration
               </p>
               <ul className='menu-list'>
@@ -94,7 +94,7 @@ class Navbar extends React.Component {
                 <li>
                   <a>Balance</a>
                 </li>
-              </ul>
+    </ul>*/}
             </aside>
           </Menu>
         </div>
