@@ -7,7 +7,7 @@ module.exports = {
   siteDescription: 'The modern way to bring fresh produce from local farms to your mouth', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
-  googleTagManagerID: 'GTM-PWCJCMJ', // GTM tracking ID.
+  googleAnalyticsID: 'UA-120665545-1',
   disqusShortname: 'farmlify', // Disqus shortname.
   userName: 'farmlify',
   userTwitter: 'farmlify',

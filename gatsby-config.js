@@ -3,7 +3,9 @@
  */
 const config = require('./meta/config')
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+const pathPrefix = config.pathPrefix === '/'
+  ? ''
+  : config.pathPrefix
 
 module.exports = {
   siteMetadata: {
@@ -16,61 +18,60 @@ module.exports = {
       description: config.siteDescription,
       image_url: `${config.siteUrl + pathPrefix}/icons/icon-512x512.png`,
       author: config.userName,
-      copyright: config.copyright,
-    },
+      copyright: config.copyright
+    }
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
-    {
+    'gatsby-plugin-sass', {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-    },
-    {
+        name: 'pages'
+      }
+    }, {
+      resolve: `gatsby-plugin-sitemap`
+    }, {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/img`,
-        name: 'images',
-      },
+        name: 'images'
+      }
     },
     'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    {
+    'gatsby-transformer-sharp', {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [],
-      },
-    },
-    {
+        plugins: []
+      }
+    }, {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: config.googleAnalyticsID,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: false,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths exclude: ["/preview/**",
+        // "/do-not-track/me/too/"],
+      }
+    }, {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
+        modulePath: `${__dirname}/src/cms/cms.js`
+      }
     },
-    `gatsby-plugin-offline`,
-    {
+    `gatsby-plugin-offline`, {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
         color: config.themeColor,
         // Disable the loading spinner.
-        showSpinner: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: config.googleTagManagerID,
-        includeInDevelopment: false,
-      },
-    },
-    {
+        showSpinner: false
+      }
+    }, {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: config.siteTitle,
@@ -83,18 +84,15 @@ module.exports = {
           {
             src: `/icons/icon-192x192.png`,
             sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
+            type: `image/png`
+          }, {
             src: `/icons/icon-512x512.png`,
             sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
-
-    },
-    {
+            type: `image/png`
+          }
+        ]
+      }
+    }, {
       resolve: 'gatsby-plugin-feed',
       options: {
         setup(ref) {
@@ -124,7 +122,10 @@ module.exports = {
           {
             serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
-              return ctx.query.allMarkdownRemark.edges
+              return ctx
+                .query
+                .allMarkdownRemark
+                .edges
                 .filter(edge => edge.node.frontmatter.templateKey === 'article-page')
                 .map(edge => ({
                   categories: edge.node.frontmatter.tags,
@@ -134,7 +135,11 @@ module.exports = {
                   author: rssMetadata.author,
                   url: rssMetadata.site_url + edge.node.fields.slug,
                   guid: rssMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                  custom_elements: [
+                    {
+                      'content:encoded': edge.node.html
+                    }
+                  ]
                 }))
             },
             query: `
@@ -161,23 +166,21 @@ module.exports = {
                               }
                             }
                           `,
-            output: config.siteRss,
-          },
-        ],
-      },
-    },
-    {
+            output: config.siteRss
+          }
+        ]
+      }
+    }, {
       resolve: 'gatsby-plugin-purify-css',
       options: {
         /* Defaults */
         /*styleId: 'gatsby-inlined-css',*/
         purifyOptions: {
           info: true,
-          minify: true,
+          minify: true
         }
       }
     },
-    'gatsby-plugin-netlify',
-  ],
+    'gatsby-plugin-netlify'
+  ]
 }
-
