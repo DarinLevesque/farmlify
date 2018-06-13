@@ -34,10 +34,17 @@ export default class HTML extends Component {
         <body>
           <div
             id='___gatsby'
+<<<<<<< HEAD
             dangerouslySetInnerHTML={{
             __html: this.props.body
           }}/> {this.props.postBodyComponents}
           <script src={__PATH_PREFIX__ + '/js/toggle.js'}/>
+=======
+            dangerouslySetInnerHTML={{ __html: this.props.body }}
+          />
+          {this.props.postBodyComponents}
+          <script src={__PATH_PREFIX__ + '/js/toggle.js'} />
+>>>>>>> 91528c274fd3d465a7ab23f45ce3c81263472392
         </body>
       </html>
     )

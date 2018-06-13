@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import {slide as Menu} from 'react-burger-menu'
 import './menu.css'
 
+<<<<<<< HEAD
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -97,6 +98,74 @@ class Navbar extends React.Component {
               </ul>
             </aside>
           </Menu>
+=======
+const NavBar = () => {
+  return (
+    <div>
+      <div className='is-hidden-desktop'>
+        <Menu right>
+          <aside className='menu'>
+            <p className='menu-label'>
+              General</p>
+            <ul className='menu-list'>
+              <li>
+                <Link to='/'>Home</Link>
+              </li>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/howitworks'>How it Works</Link>
+              </li>
+              <li>
+                <Link to='/blog'>Blog</Link>
+              </li>
+            </ul>
+            <p className='menu-label'>
+              Administration
+            </p>
+            <ul className='menu-list'>
+              <li>
+                <a>Team Settings</a>
+              </li>
+              <li>
+                <a>Manage Your Team</a>
+                <ul>
+                  <li>
+                    <a>Members</a>
+                  </li>
+                  <li>
+                    <a>Plugins</a>
+                  </li>
+                  <li>
+                    <a>Add a member</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Invitations</a>
+              </li>
+              <li>
+                <a>Cloud Storage Environment Settings</a>
+              </li>
+              <li>
+                <a>Authentication</a>
+              </li>
+            </ul>
+          </aside>
+        </Menu>
+      </div>
+      <nav className='navbar is-hidden-touch' aria-label='main navigation'>
+        <div className='navbar-brand'>
+          <Link to='/' className='navbar-item'>
+            Farmlify
+          </Link>
+          <button className='button navbar-burger' data-target='navMenu'>
+            <span/>
+            <span/>
+            <span/>
+          </button>
+>>>>>>> 91528c274fd3d465a7ab23f45ce3c81263472392
         </div>
         <nav className='navbar is-hidden-touch' aria-label='main navigation'>
           <div className='navbar-brand'>
