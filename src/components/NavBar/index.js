@@ -47,7 +47,13 @@ class Navbar extends React.Component {
                   <Link to='/' onClick={() => this.closeMenu()}>Home</Link>
                 </li>
                 <li>
-                  <Link to='howitworks' onClick={() => this.closeMenu()}>How it Works</Link>
+                  <Link to='/howitworks' onClick={() => this.closeMenu()}>How it Works</Link>
+                </li>
+                <li>
+                  <Link to='/about' onClick={() => this.closeMenu()}>About</Link>
+                </li>
+                <li>
+                  <Link to='/blog' onClick={() => this.closeMenu()}>Blog</Link>
                 </li>
               </ul>
               {/* <p className='menu-label'>
