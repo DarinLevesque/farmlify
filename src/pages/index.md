@@ -9,23 +9,18 @@ description: >-
 offerings:
   blurbs:
     - image: /img/1honeytext.jpg
-      text: >-
-        Arizona Farm Grow:
-
-        Location- 20117 N Scottsdale Rd, Scottsdale, Arizona 85255, United
-        States
-
+      text: |-
+        Arizona Farm:
+        Location- 207 N Scottsdale Rd, Scotts, Arizona 55555, United States
         Hours- 9AM-6PM
-
-        Phone- (480)-430-5989
-
+        Phone- (555)-430-5555
         See What's Fresh....
     - image: /img/azcarrots.jpg
       text: |-
         AZ Carrots:
-        Location-4762 N. 189th Ave. Litchfield Park, AZ 85340
+        Location-42 N. 189th Ave. Field Park, AZ 55555
         Hours- 12-6PM
-        Phone- (623) 266-4031
+        Phone- (555) 266-5555
         See What's Fresh....
 testimonials:
   - author: Jeremy Germaine
