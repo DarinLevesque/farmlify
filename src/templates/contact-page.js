@@ -29,7 +29,7 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
         </div>
       </section>
       <section className='section'>
-        <form netlify>
+        <form name="contact" method="POST" netlify>
           <div className='field is-horizontal'>
             <div className='field-label is-normal'>
               <label className='label'>From</label>
