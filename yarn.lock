@@ -1815,9 +1815,9 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
-bulma-pricingtable@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-1.2.0.tgz#cee83b8a7b99e874ea1848344ae3fc762356f343"
+bulma-pricingtable@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-2.1.0.tgz#0bfad916dd4356b20c028ecb0781c39e393a7559"
 
 bulma@~0.7.1:
   version "0.7.1"
@@ -4320,7 +4320,7 @@ gatsby-plugin-offline@~1.0.18:
     babel-runtime "^6.26.0"
     sw-precache "^5.0.0"
 
-gatsby-plugin-purify-css@^2.2.1:
+gatsby-plugin-purify-css@~2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-purify-css/-/gatsby-plugin-purify-css-2.2.1.tgz#a3716a0d53ac2bae669d8c01afd13fe7c79aaa81"
   dependencies:
@@ -7244,9 +7244,9 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-netlify-cms@^1.8.4:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-1.8.4.tgz#8386a3aa2df6823fbc7860957c980e66870474f3"
+netlify-cms@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-1.9.2.tgz#ccc40d5747d14ab4562c1e1fda2d3f3cd8db62ab"
   dependencies:
     classnames "^2.2.5"
     create-react-class "^15.6.0"
@@ -9013,9 +9013,9 @@ react-autowhatever@^10.1.0:
     react-themeable "^1.1.0"
     section-iterator "^2.0.0"
 
-react-burger-menu@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.5.1.tgz#966496788f867863cd5998d08a22662ba0e27199"
+react-burger-menu@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.5.2.tgz#2be34466b51af80213591859654803bd07342fb4"
   dependencies:
     browserify-optional "^1.0.0"
     classnames "^2.1.1"
