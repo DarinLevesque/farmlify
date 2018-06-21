@@ -1,67 +1,39 @@
 ---
-templateKey: 'home-page'
+templateKey: home-page
 title: Farmlify
+heading: Farm Fresh Produce Your Way
+description: >-
+  Farmlify connects you directly with your local farmers and growers. Choose
+  exactly what you want and where it comes from. Explore your local area and
+  find YOUR favorite farm fresh products.
+offerings:
+  blurbs:
+    - image: /img/1honeytext.jpg
+      text: |-
+        Arizona Farm:
+        Location- 207 N Scottsdale Rd, Scotts, Arizona 55555, United States
+        Hours- 9AM-6PM
+        Phone- (555)-430-5555
+        See What's Fresh....
+    - image: /img/azcarrots.jpg
+      text: |-
+        AZ Carrots:
+        Location-42 N. 189th Ave. Field Park, AZ 55555
+        Hours- 12-6PM
+        Phone- (555) 266-5555
+        See What's Fresh....
+testimonials:
+  - author: Jeremy Germaine
+    quote: Finding the veggies I want has never been so easy.
+  - author: Susan Susanson
+    quote: >-
+      AZ Farm Grows has the best honey! The owners are so nice, I had no idea
+      they were so close to me!
 meta_title: Home | Farmlify
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-heading: Lorem ipsum dolor sit amet
-description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
-offerings:
-  blurbs:
-    - image: /img/carrots.jpg
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae tincidunt ut, 
-        scelerisque eu sem. Etiam porttitor elit eget mi luctus, vitae blandit enim pretium. 
-        Aenean nec hendrerit leo, a bibendum magna. In hac habitasse platea dictumst. 
-        Suspendisse sapien magna, vestibulum non vehicula id, pellentesque in ante. Nullam 
-        sed auctor tellus. Sed ipsum sem, dapibus nec eros in, feugiat sagittis mi. 
-        Nullam et dui interdum, varius nibh eu, efficitur metus.
-    - image: /img/coffee-gear.png
-      text: >
-        Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi. Nam 
-        ipsum nulla, dapibus eu mi non, commodo commodo sapien. Pellentesque luctus 
-        neque id mauris accumsan, nec imperdiet justo eleifend. Nulla viverra, ipsum 
-        sit amet interdum pharetra, felis lorem sollicitudin felis, vehicula finibus 
-        enim nunc facilisis sapien. Donec nulla nisi, dictum quis nibh et, euismod 
-        semper eros. Praesent nunc tortor, consequat eu justo ac, dictum viverra enim. 
-        Etiam sed dui dapibus mauris congue facilisis. Nulla convallis, lectus vel 
-        vehicula interdum, turpis nunc aliquet sem, ac iaculis ligula mauris id tortor. 
-        Sed eget ornare orci, quis dignissim nulla. Pellentesque aliquam consectetur congue.
-    - image: /img/freshproduce.jpg
-      text: >
-        Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin 
-        pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu 
-        pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt, 
-        scelerisque lectus ac, congue turpis. Fusce egestas sit amet elit et fringilla. Aliquam 
-        erat volutpat. Vivamus ultrices venenatis maximus. Donec volutpat vitae quam at fringilla. 
-        Sed luctus lacus vel tempus posuere. Ut suscipit auctor tortor. Phasellus leo dui, elementum 
-        non sollicitudin eget, porta vehicula odio. Sed mollis, metus sit amet porttitor vehicula, 
-        quam augue pretium erat, at commodo nisl tellus non risus.
-    - image: /img/meeting-space.png
-      text: >
-        Vestibulum libero lectus, dignissim eget magna sit amet, malesuada tincidunt mi. Vivamus 
-        sed erat iaculis mauris efficitur vehicula. Aliquam sed urna at tellus ullamcorper 
-        venenatis molestie ut mi. Duis vel libero ac lectus cursus tempus. Nullam in dictum felis. 
-        Nam sed laoreet turpis. Sed pretium urna consequat lorem tincidunt, ac scelerisque nisi 
-        sodales. Cras tristique laoreet tempor. Mauris vitae dolor eu mauris malesuada cursus. 
-        Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus. Suspendisse potenti. 
-        In tempor, massa quis euismod convallis, felis elit sodales urna, at aliquet mi elit auctor 
-        risus.
-testimonials:
-  - author: Jeremy Germaine
-    quote: >-
-      Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
-      Sed quis egestas libero. Vestibulum nec venenatis ligula. 
-  - author: Susan Susanson
-    quote: >-
-      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
+

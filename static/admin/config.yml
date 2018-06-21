@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: master
 
-publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
@@ -27,6 +26,15 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+      - file: "src/pages/howitworks/index.md"
+        label: "How it Works"
+        name: "howitworks"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "howitworks-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}

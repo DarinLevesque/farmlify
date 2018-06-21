@@ -1,30 +1,30 @@
 ---
 templateKey: article-page
-title: Lorem Ipsum Dolor Situm
-slug: lorem-ipsum-dolor-situm
+title: Farm Life
+slug: farmlifefidelity
 date: 2018-03-29T03:55:49.370Z
 cover: /img/products-grid3.jpg
-meta_title: Lorem Ipsum Dolor Situm
-meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
 tags:
-  - lorem
-  - ipsum
+  - farm
+  - fresh
+  - natural
+  - local
+meta_title: Farm Life
+meta_description: >-
+  You spend an hour wandering like a zombie through the grocery store aisles
+  placing the best selection of produce that your store has to offer. Then you
+  rush home to finish homework and are unable to make a proper dinner because
+  well....calculus.
 ---
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+# Scenario
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+You spend an hour wandering like a zombie through the grocery store aisles placing the best selection of produce that your store has to offer. Then you rush home to finish homework and are unable to make a proper dinner because well....calculus. 
 
-## Most Amazing Blogging Experience.
+The next day you decide to break into all that "fresh" produce that you bought only to find that much of it is wilted, over ripe or just inedible.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+The reason for this is because grocery stores use large, slow distribution centers which take transit time. What commercial farmers are doing in order to waste less is to harvest early which causes this freshness conundrum.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+# Why Farmlify
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+After growing tired of buying produce from the local grocery stores only for that produce to either never ripen correctly, or be over ripe to quickly, we decided that we could create something better. Leverage a highly agile decentralized supply chain which is more mobile, allows for better farmer/consumer relationship (knowing where your food comes from), and ultimately brings the freshest produce straight to your table!
