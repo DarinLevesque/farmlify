@@ -29,7 +29,7 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
         </div>
       </section>
       <section className='section'>
-        <form name="contact" method="POST" netlify>
+        <form name='contact' method='POST' netlify>
           <div className='field is-horizontal'>
             <div className='field-label is-normal'>
               <label className='label'>From</label>
@@ -39,7 +39,7 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
                 <p className='control is-expanded has-icons-left'>
                   <input className='input' type='text' placeholder='Name'/>
                   <span className='icon is-small is-left'>
-                    <i className='fas fa-user'></i>
+                    <i className='fas fa-user'/>
                   </span>
                 </p>
               </div>
@@ -152,7 +152,7 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
           </div>
 
           <div className='field is-horizontal'>
-            <div className='field-label'></div>
+            <div className='field-label'/>
             <div className='field-body'>
               <div className='field'>
                 <div className='control'>

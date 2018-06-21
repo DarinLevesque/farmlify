@@ -5,7 +5,7 @@
   "author": "Darin Levesque",
   "dependencies": {
     "bulma": "~0.7.1",
-    "bulma-pricingtable": "~2.1.0",
+    "bulma-pricingtable": "~1.2.0",
     "gatsby": "~1.9.270",
     "gatsby-link": "~1.6.44",
     "gatsby-plugin-feed": "~1.3.24",
@@ -26,7 +26,7 @@
     "gatsby-transformer-sharp": "~1.6.26",
     "lodash": "~4.17.10",
     "lodash-webpack-plugin": "~0.11.4",
-    "netlify-cms": "^1.8.4",
+    "netlify-cms": "^1.9.2",
     "prop-types": "~15.6.1",
     "react-burger-menu": "^2.5.2",
     "react-custom-scrollbars": "^4.2.1",
