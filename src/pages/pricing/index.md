@@ -1,5 +1,7 @@
 ---
 templateKey: pricing-page
+title: HOW IT WORKS
+image: /img/farmlify_pricing.jpg
 title: Pricing
 meta_title: Pricing | Farmlify
 meta_description: >-
@@ -9,13 +11,13 @@ meta_description: >-
   consectetur purus sit amet fermentum.
 pricing:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
-    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
-    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
-    a velit at enim sagittis pellentesque.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo
+    justo,  non semper odio cursus in. Curabitur ligula tortor, tristique non
+    odio nec, imperdiet  mattis leo. Vivamus aliquam rhoncus tortor vitae
+    convallis. Aliquam non dui nibh. Nam  a velit at enim sagittis pellentesque.
   heading: Monthly subscriptions
   plans:
-    - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
+    - description: 'Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu'
       items:
         - Lorem ipsum dolor sit amet
         - consectetur adipiscing elit
@@ -29,12 +31,18 @@ pricing:
         - Proin at sagittis ex
       plan: Enterprise
       price: '80'
-    - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
+    - description: 'Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.'
       items:
         - Pellentesque luctus neque id mauris accumsan
         - nec imperdiet justo eleifend
         - Sed eget ornare orci
       plan: Custom
       price: '??'
+meta_title: HOW IT WORKS
+meta_description: >-
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
+  consectetur purus sit amet fermentum.
 ---
 
