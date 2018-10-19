@@ -30,7 +30,7 @@
     "prop-types": "~15.6.1",
     "react-burger-menu": "^2.5.2",
     "react-custom-scrollbars": "^4.2.1",
-    "react-disqus-comments": "~1.2.0",
+    "react-disqus-comments": "~1.4.0",
     "react-helmet": "~5.2.0",
     "react-lazyload": "^2.3.0",
     "react-share": "2.2.0",
