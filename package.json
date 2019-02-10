@@ -27,7 +27,7 @@
     "lodash": "~4.17.10",
     "lodash-webpack-plugin": "~0.11.4",
     "netlify-cms": "^1.9.2",
-    "prop-types": "~15.6.1",
+    "prop-types": "~15.7.0",
     "react-burger-menu": "^2.5.2",
     "react-custom-scrollbars": "^4.2.1",
     "react-disqus-comments": "~1.2.0",
