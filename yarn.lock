@@ -1844,9 +1844,9 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
-bulma-pricingtable@~2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-2.1.0.tgz#0bfad916dd4356b20c028ecb0781c39e393a7559"
+bulma-pricingtable@~1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-1.2.0.tgz#cee83b8a7b99e874ea1848344ae3fc762356f343"
 
 bulma@~0.7.1:
   version "0.7.1"
@@ -9496,11 +9496,11 @@ react-scroll-sync@^0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/react-scroll-sync/-/react-scroll-sync-0.4.1.tgz#f2749f90c7a10c2acb9ce83a2a998cbb88770e2c"
 
-react-share@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-share/-/react-share-2.2.0.tgz#49fa2525409a030d94375f8b9926b0db916c3049"
+react-share@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-share/-/react-share-3.0.1.tgz#be9dc3f80059c4fed33542472f4e7425bb3a76cb"
   dependencies:
-    babel-runtime "^6.6.1"
+    babel-runtime "^6.26.0"
     classnames "^2.2.5"
     jsonp "^0.2.1"
     prop-types "^15.5.8"
