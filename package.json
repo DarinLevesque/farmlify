@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "author": "Darin Levesque",
   "dependencies": {
-    "bulma": "~0.7.1",
+    "bulma": "~0.8.0",
     "bulma-pricingtable": "~1.2.0",
     "gatsby": "~1.9.270",
     "gatsby-link": "~1.6.44",
